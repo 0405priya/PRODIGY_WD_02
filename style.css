@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(250, 234, 5);
+}
+
+.container{
+    text-align: center;
+}
+
+#result{
+    font-size: 3rem;
+    color: black;
+    background: white;
+    padding: 30px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.result span{
+ width: 3rem;
+}
+
+.button button{
+    margin: 1rem;
+    border: none;
+    outline: none;
+    height: 43px;
+    width: 100px;
+    color:brown;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.button button:hover{
+    margin: 1rem;
+    border: none;
+    outline: none;
+    height: 43px;
+    width: 100px;
+    color:rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: palevioletred;
+    
+}
